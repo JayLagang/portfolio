@@ -19,18 +19,6 @@ a{
     font-family:Krona One;
 }
 
-@keyframes refresh {
-    0%   {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:200px; top:200px;}
-  75%  {left:0px; top:200px;}
-  100% {left:0px; top:0px;}
-  }
-
-.header-trans {
-    animation-name: refresh;
-    animation-duration: 3s;
-}
 
 a {
     color: black;
@@ -47,22 +35,16 @@ a {
     top: 0;
 }
 
-body{
-    scroll-behavior: smooth;
-}
-
 .input-label-font{
     font-family: Questrial;
 }
-input {
-    width: 70%;
+#form-col{
+    width: 60%;
 }
+body {
+    font-family: Questrial !important;
+  }
 
-
-#form-container{
-    height: 50%;
-}
-
-.text-area{
-    
-}
+  textarea {
+    resize: none;
+  }

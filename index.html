@@ -40,13 +40,9 @@
       
       <section id="nav-bar-section" class="container-fluid">
         <div id="navbar-container" class="row">
-          <nav class="navbar navbar-expand-lg navbar-light bg-color-3 col-12">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto">
+          <nav class="navbar navbar-expand navbar-light bg-color-2 col-12 justify-content-center">
+           
+              <ul class="navbar-nav">
                 <li class="nav-item">
                   <a class="nav-link" href="#landing-section">Home</a>
                 </li>
@@ -54,12 +50,12 @@
                   <a class="nav-link" href="#projects-section">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact-section">Contact</a>
+                  <a class="nav-link" href="#contact-container">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#tools-section">Tools</a>
                 </li>
-            </div>
+           
           </nav>
         </div>
       </section>
@@ -84,32 +80,37 @@
       <!-- end of projects section -->
 
       <!-- start of contact section -->
-      <section id="contact-section" class="container-fluid min-vh-100 bg-color-2 text-center mt-3">
+      <section id="contact-section" class="container-fluid bg-color-3 text-center">
         <!-- <div class="row"></div> -->
-        <div id="contact-container" class="row justify-content-center p-3">
-          <div id="header-container" class="col-sm-12 col-md-8 p-3 align-self-center mt-5">
-            <h2 class="text-white">Contact Me</h2>
-          </div>
-          <div id="form-container" class="col-sm-12 col-md-8 bg-color-1 p-3 align-self-center rounded-lg">
-            <form>
+        
+        <div id="contact-container" class="row justify-content-center rounded-lg p-5">
+          <h2 class="text-dark">Contact Me</h2>
+          <div id="form-container" class="row align-items-center justify-content-center col-sm-12 col-md-12 ml-5  mr-5 mt-0">
+            
+            <form id="form-col" class="rounded-lg">	
 
-                <label for="name" class="text-white d-block input-label-font">Full Name</label>
-                <input type="text" class="input-label-font text-center rounded-sm" id="name" placeholder="Pedro Payndoko">
-             
-
-                <label for="number" class="text-white d-block input-label-font">Phone Number</label>
-                <input type="number" class="input-label-font text-center rounded-sm" id="name" placeholder="+63 900 000 0000">
+              <label for="name" class="text-white">Name</label>
+              <input type="text-input" class="form-control" id="name" placeholder="Your Name">
               
-
-                <label for="email" class="text-white d-block input-label-font">Email Address</label>
-                <input type="email" class="input-label-font text-center rounded-sm" id="email" placeholder="pedro@payndoko.com">
+              <label for="email" class="text-white">Email adress</label>
+              <input type="email-input" class="form-control" id="email" placeholder="name@example.com">
               
-                <label for="message">Message</label>
-                <textarea id="message" class="text-area" rows="5" cols="70"></textarea>
-
+              <label for="contact-number" class="text-white">Contact number</label>
+              <input type="number-input" class="form-control" id="contact-number" placeholder="+63 900 000 0000">
+              
+              
+              <label for="concern" class="text-white">Contact Reason</label>
+              <select class="form-control" id="concern">
+                <option>Quotation</option>
+                <option>Project Consultation</option>
+              </select>
+              
+              <label for="message" class="text-white">Custom Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
 
               <button type="button" class="btn btn-dark mb-1 mt-3" data-toggle="modal" data-target="#modalDiv">Send Email</button>
 
+              
             </form>
           </div>
         </div>
