@@ -8,6 +8,10 @@
     background-color: #FFFFFF;
 }
 
+.nav-bg{
+    background-color: #0b123f2e;
+}
+
 p form{
     font-family:Questrial; 
 }
@@ -29,7 +33,6 @@ a {
 } */
 
 #nav-bar-section {
-    min-height: 10vh;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -39,12 +42,20 @@ a {
     font-family: Questrial;
 }
 #form-col{
-    width: 60%;
+    width: 90%;
 }
 body {
     font-family: Questrial !important;
   }
 
-  textarea {
-    resize: none;
-  }
+textarea {
+resize: none;
+}
+
+#navbar-container{
+height: 10dvh;
+}
+
+.tool-container{
+    height: 80dvh;
+}
