@@ -8,8 +8,8 @@
     background-color: #FFFFFF;
 }
 
-p{
-    font-family:Questrial;
+p form{
+    font-family:Questrial; 
 }
 
 h2{ 
@@ -17,4 +17,52 @@ h2{
 }
 a{ 
     font-family:Krona One;
+}
+
+@keyframes refresh {
+    0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+  }
+
+.header-trans {
+    animation-name: refresh;
+    animation-duration: 3s;
+}
+
+a {
+    color: black;
+}
+
+/* #landing {
+    min-height: 100vh;
+} */
+
+#nav-bar-section {
+    min-height: 10vh;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.input-label-font{
+    font-family: Questrial;
+}
+input {
+    width: 70%;
+}
+
+
+#form-container{
+    height: 50%;
+}
+
+.text-area{
+    
 }
