@@ -60,6 +60,12 @@ a{
     top: 0;
 }
 
+.scroll-position:hover{
+    background-color: #ffffff56;
+    border-style: solid;
+    transition: 0.5s;
+}
+
 
 body {
     font-family: Questrial !important;
