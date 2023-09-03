@@ -146,7 +146,7 @@ textarea {
     }
 
 input, select, textarea{
-    width: 15rem;
+    width: 90%;
 }
 /* End of Form formats */
 .landing-logo{
