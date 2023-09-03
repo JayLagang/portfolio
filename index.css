@@ -12,22 +12,12 @@
     background-color: #0b123f2e;
 }
 
-p form{
-    font-family:Questrial; 
-}
-
 h2{ 
     font-family:Krona One;
 }
 a{ 
     font-family:Krona One;
 }
-
-
-a {
-    color: black;
-}
-
 /* #landing {
     min-height: 100vh;
 } */
@@ -38,19 +28,21 @@ a {
     top: 0;
 }
 
-.input-label-font{
-    font-family: Questrial;
+.sticky-title{
+    position: sticky;
+    z-index: 1;
+    top: 0;
 }
-#form-col{
-    width: 90%;
+
+.scroll-position{
+    position: sticky;
+    top: 0;
 }
+
+
 body {
     font-family: Questrial !important;
   }
-
-textarea {
-resize: none;
-}
 
 #navbar-container{
 height: 10dvh;
@@ -58,4 +50,82 @@ height: 10dvh;
 
 .tool-container{
     height: 80dvh;
+}
+
+
+.landing-message-bg{
+    background-color: #2317FF;
+    opacity: 1;
+    background-image:  linear-gradient(#ffffff20 0.8px, transparent 0.8px), linear-gradient(to right, #ffffff20 0.2px, #2317FF 0.8px);
+    background-size: 16px 16px;
+}
+
+.landing-message-font{
+    font-family: Questrial;
+}
+
+.project-header{
+    font-family: Krona One;
+}
+
+.landing-banner-bg{
+    background-color: #0B123F;
+    opacity: 1;
+    background-image:  linear-gradient(#ffffff0b 0.8px, transparent 0.8px), linear-gradient(to right, #ffffff0b 0.2px, #0B123F 0.8px);
+    background-size: 16px 16px;
+}
+
+.project-bg{
+    background-color:#FFFFFF;
+    box-shadow: 1px 1px 5px #0B123F;
+    border-radius: 20px;
+}
+
+.project-container-height{
+    height: 70dvh;
+}
+
+.nav-bg{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#212529 0.5px, transparent 0.5px), radial-gradient(#212529 0.5px, #ffffff 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.tools-bg{
+    background-color: #FFFFFF(240, 53%, 93%);
+    opacity: 1;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.114) 1px, transparent 1px), linear-gradient(to right, rgba(0, 0, 0, 0.114) 1px, #FFFFFF 1px);
+    background-size: 20px 20px;
+}
+
+.contact-bg{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#0000001d 0.6000000000000001px, #ffffff 0.6000000000000001px);
+    background-size: 12px 12px;
+}
+
+.projects-main-bg{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image: radial-gradient(#00000017 0.6000000000000001px, #ffffff 0.6000000000000001px);
+    background-size: 12px 12px;
+}
+/* Form formats */
+.form-bg{
+    background-color:#FFFFFF;
+    box-shadow: 1px 1px 5px #0B123F;
+    border-radius: 20px;
+}
+
+textarea {
+    resize: none;
+    }
+
+/* End of Form formats */
+.landing-logo{
+    color: white;
+    text-shadow: 1px 1px 4px #FF8000, 0 0 25px #2317FF, 0 0 5px #2317FF;
 }
