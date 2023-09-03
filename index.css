@@ -18,21 +18,42 @@ h2{
 a{ 
     font-family:Krona One;
 }
-/* #landing {
-    min-height: 100vh;
-} */
 
+.project-link{
+    margin-top: 2px;
+    font-family: Krona One;
+    font-size:x-small;
+}
 #nav-bar-section {
     position: sticky;
     z-index: 1;
     top: 0;
 }
 
-.sticky-title{
-    position: sticky;
-    z-index: 1;
-    top: 0;
+@media (max-width: 426px){
+    .sm-height{
+        min-height: 100dvh;
+        min-width: 60dvh;
+    }
+
+    
 }
+
+@media (max-width: 1023px){
+    .top-nav{
+        display: none;   
+       }
+}
+
+
+@media (min-width: 426px) {
+    .sticky-title{
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    } 
+}
+
 
 .scroll-position{
     position: sticky;
@@ -43,6 +64,10 @@ a{
 body {
     font-family: Questrial !important;
   }
+
+html {
+    scroll-behavior: smooth;
+}
 
 #navbar-container{
 height: 10dvh;
@@ -79,10 +104,6 @@ height: 10dvh;
     background-color:#FFFFFF;
     box-shadow: 1px 1px 5px #0B123F;
     border-radius: 20px;
-}
-
-.project-container-height{
-    height: 70dvh;
 }
 
 .nav-bg{
@@ -124,8 +145,12 @@ textarea {
     resize: none;
     }
 
+input, select, textarea{
+    width: 15rem;
+}
 /* End of Form formats */
 .landing-logo{
     color: white;
     text-shadow: 1px 1px 4px #FF8000, 0 0 25px #2317FF, 0 0 5px #2317FF;
 }
+
