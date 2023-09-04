@@ -32,7 +32,7 @@ a{
 
 @media (max-width: 426px){
     .sm-height{
-        min-height: 70dvh;
+        min-height: 60dvh;
         min-width: 90%;
     }
 
