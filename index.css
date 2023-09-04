@@ -35,8 +35,10 @@ a{
         min-height: 60dvh;
         min-width: 90%;
     }
+    .sm-contact-height{
+        min-height: 60% !important;
+    }
 
-    
 }
 
 @media (max-width: 1023px){
@@ -54,12 +56,29 @@ a{
     } 
 }
 
-@media (min-width: 1439px){
+.circle-form{
+    font-size: 1rem;
+}
+
+@media (min-width: 1440px){
     body{
         font-size: 1.5rem;
     }
 }
 
+.slogan{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.brand-effect{
+    color: white;
+    text-shadow: 1px 1px 4px #FF8000, 0 0 25px #2317FF, 0 0 5px #2317FF;
+}
+
+.logo-size{
+    font-size: 2rem;
+}
 
 .scroll-position{
     position: sticky;
@@ -102,6 +121,7 @@ height: 10dvh;
 .landing-message-font{
     font-family: Questrial;
 }
+
 
 .project-header{
     font-family: Krona One;
@@ -163,8 +183,5 @@ input, select, textarea{
     width: 90%;
 }
 /* End of Form formats */
-.landing-logo{
-    color: white;
-    text-shadow: 1px 1px 4px #FF8000, 0 0 25px #2317FF, 0 0 5px #2317FF;
-}
+
 
