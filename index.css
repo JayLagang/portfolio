@@ -37,10 +37,8 @@ a{
     }
 
     .sm-min-height {
-        min-height: 80dvh;
+        min-height: 80dvh !important;
     }
-    
-
 }
 
 @media (max-width: 1023px){
@@ -60,7 +58,7 @@ a{
 
 @media (min-width: 426px) {
     .md-minimum-height{
-        min-height: 100dvh;
+        min-height: 100dvh !important;
     }
 }
 
